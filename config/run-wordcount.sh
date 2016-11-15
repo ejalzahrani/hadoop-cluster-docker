@@ -3,9 +3,9 @@
 # test the hadoop cluster by running wordcount
 
 # create input files 
-mkdir input
-echo "Hello Docker" >input/file2.txt
-echo "Hello Hadoop" >input/file1.txt
+mkdir input1
+echo "Hello Docker" >input1/fileEidah1.txt
+echo "Hello Hadoop" >input1/fileEidah2.txt
 
 # create input directory on HDFS
 hadoop fs -mkdir -p input
