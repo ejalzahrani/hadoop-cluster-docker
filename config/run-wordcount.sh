@@ -3,9 +3,9 @@
 # test the hadoop cluster by running wordcount
 
 # create input files 
-mkdir input1
-echo "Eidah Alzahrani EidahAlzahrani" >input1/fileEidah1.txt
-echo "FAten Alzahrani Alzahrani Eidah Hadoop" >input1/fileEidah2.txt
+mkdir input
+echo "Eidah Alzahrani EidahAlzahrani" >input/fileEidah1.txt
+echo "FAten Alzahrani Alzahrani Eidah Hadoop" >input/fileEidah2.txt
 
 # create input directory on HDFS
 hadoop fs -mkdir -p input
