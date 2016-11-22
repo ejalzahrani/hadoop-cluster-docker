@@ -4,8 +4,8 @@
 
 # create input files 
 mkdir input
-echo "Eidah Alzahrani EidahAlzahrani" >input/fileEidah1.txt
-echo "FAten Alzahrani Alzahrani Eidah Hadoop" >input/fileEidah2.txt
+echo "eidah eidah eidah eidah al ala lala lala lala la la laala llaa " >input/file2.txt
+echo "eidah al lal eidah alzahrani faten faten" >input/file1.txt
 
 # create input directory on HDFS
 hadoop fs -mkdir -p input
