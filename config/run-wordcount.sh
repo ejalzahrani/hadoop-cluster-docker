@@ -5,6 +5,9 @@
 # create input files 
 mkdir input
 echo "eidah eidah eidah eidah al ala lala lala lala la la laala llaa " >input/file2.txt
+wget https://raw.githubusercontent.com/ejalzahrani/hadoop-cluster-docker/master/config/DataGoogleTrace
+cat DataGoogleTrace >input/file1.txt
+
 #echo "eidah al lal eidah alzahrani faten faten" >input/file1.txt
 
 # create input directory on HDFS
