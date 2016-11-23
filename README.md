@@ -51,6 +51,10 @@ root@hadoop-master:~#
 ```
 ./start-hadoop.sh
 ```
+#####5.1 Copy Dataset into Container
+```
+sudo docker cp /tmp/enwiki-20161120-pages-articles-multistream-index.txt hadoop-master:/root/input/file2.txt
+```
 
 #####6. run wordcount
 
