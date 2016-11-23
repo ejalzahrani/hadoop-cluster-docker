@@ -3,6 +3,8 @@
 # the default node number is 3
 N=${1:-6}
 
+# stop hadoop master and slave containers 
+sudo docker stop $(docker ps -a -q)
 
 # start hadoop master container
 sudo docker rm -f hadoop-master &> /dev/null
